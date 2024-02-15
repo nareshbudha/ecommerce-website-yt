@@ -1,6 +1,11 @@
+import BannerSection from "./Components/BannerSection"
+import BlogSction from "./Components/BlogSction"
 import Category from "./Components/Category"
+import FeatureSectionBreakfast from "./Components/FeatureSectionBreakfast"
+import FeatureSectionFruits from "./Components/FeatureSectionFruits"
 import Hero from "./Components/Hero"
 import Navbar from "./Components/Navbar"
+
 
 const App = () => {
   return (
@@ -8,6 +13,11 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <Category/>
+      <FeatureSectionFruits/>
+      <FeatureSectionBreakfast/>
+      <BannerSection/>
+      <BlogSction/>
+      
     
 
       
