@@ -6,6 +6,7 @@ const Footer = () => {
         <div className="container text-center text-gray-500 py-4">CopyRight @Nareash2024
 
         </div>
+        <div className="text-{#D4D4D4}">hellow</div>
          </div>
   )
 }
