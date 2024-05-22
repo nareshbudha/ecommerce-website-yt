@@ -1,9 +1,9 @@
 import ProductCard from "./ProductCard";
 const data =[
-  {id: 0, img: "/public/image/Product__5.webp", name:"Fresh Tomato",price:"$400"},
-  {id: 1, img: "/public/image/product__2.webp", name:"Crunchy Crisps",price:"$300"},
-  {id: 2, img: "/public/image/product__3.webp", name:"Jewel Cranberries",price:"$200"},
-  {id: 3, img: "/public/image/product__4.webp", name:"Almond organic",price:"$100"}
+  {id: 0, img: "/src/Components/image/Product__5.webp", name:"Fresh Tomato",price:"$400"},
+  {id: 1, img: "/src/Components/image/product__2.webp", name:"Crunchy Crisps",price:"$300"},
+  {id: 2, img: "/src/Components/image/product__3.webp", name:"Jewel Cranberries",price:"$200"},
+  {id: 3, img: "/src/Components/image/product__4.webp", name:"Almond organic",price:"$100"}
 ]
 
 
@@ -27,7 +27,7 @@ const FeatureSectionBreakfast = () => {
       <div className='grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 pt-8 gap-2'>
         <div>
           <img className='w-full h-full object-cover' 
-          src="\public\image\feature__2.webp"
+          src="../Components/image\feature__2.webp"
           alt="banner"/>
         </div>
         {data.map(el=> (
